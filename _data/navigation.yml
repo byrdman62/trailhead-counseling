@@ -13,8 +13,8 @@ en: &DEFAULT_EN
   nav:
     - title: "Services"
       section: services
-    # - title: "Portfolio"
-    #   section: portfolio
+    - title: "Portfolio"
+      section: portfolio
     - title: "About"
       section: about
     # - title: "Timeline"
