@@ -11,25 +11,25 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Come sit on our couch
+    text: It's cozy!
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Life's like a box o' chocolates, you never know what you're gonna get."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Kind Words"
+        desc: "I can speak kind words to you when you want them most."
+        icon: fas fa-heart #find more at https://fontawesome.com/icons
+      - title: "Much Needed Scolding"
+        desc: "When you did that stupid thing, sometimes you just need someone to tell you that it's all your fault."
+        icon: fas fa-thumbs-up
+      - title: "A Kick In The Pants"
+        desc: "When you just won't get off the couch, I'm here to get you buzzing"
+        icon: fas fa-check
 
   portfolio:
     title: "Portfolio"
