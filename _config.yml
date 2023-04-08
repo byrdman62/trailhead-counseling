@@ -11,19 +11,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
+theme: jekyll-agency
+# This needs to be uncommented to deploy to GitHub Pages
+# remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "trailhead-counseling" # the subpath of your site, e.g. /blog
+baseurl: "/trailhead-counseling" # the subpath of your site, e.g. /blog
 
 title      : Trailhead Counseling
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "Trailhead Counseling"
 author     : David Byrd
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+logo       :     #optional, defaults to site title
+   path: assets\img\logo\trailhead_logo.png
+   height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
@@ -39,5 +40,6 @@ markdown: kramdown
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 # formspree_form_path: "f/a_form_id"
 
-plugins:
-  - jekyll-remote-theme
+# This needs to be uncommented to deploy to GitHub Pages
+# plugins:
+#   - jekyll-remote-theme

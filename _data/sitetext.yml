@@ -32,10 +32,10 @@ en: &DEFAULT_EN
         icon: fas fa-check
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "What to Expect"
+    text: "To set you up for success, here are some things to expect when you get here."
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   # timeline:
   #   title: "Timeline"
@@ -98,9 +98,9 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Kristi Byrd"
+        role: "ABC, ESPN, Captain of Ceremonies"
+        image: assets/img/team/KristiByrd.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
