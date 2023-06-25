@@ -41,5 +41,5 @@ markdown: kramdown
 # formspree_form_path: "f/a_form_id"
 
 # This needs to be uncommented to deploy to GitHub Pages
-plugins:
+# plugins:
   - jekyll-remote-theme
