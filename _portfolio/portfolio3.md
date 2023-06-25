@@ -1,19 +1,25 @@
 ---
-title: Our Results
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/06-thumbnail.jpg
-alt: Keep Exploring
+title: Our Prices
+subtitle: 
+images:
+  - image: assets/img/portfolio/06-thumbnail.jpg
+    alt: Keep Exploring
 
 caption:
-  title: Our Results
-  subtitle: A new you
+  title: Our Prices
+  subtitle: 
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
 
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+<h4>Licensed Marriage and Family Therapist:</h4>
+<h6>$120 for the initial intake session</h6>
+<h6>$120 for each 50 minute session</h6>
+<h6>$60 for 25 minute sessions</h6>
 
-{:.list-inline}
+College students: Ask about a special rate for you!<br>
 
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+**\*\*We currently do not accept insurance\*\***
+ We are a self-pay practice only. 
+
+Licensed therapists are able to provide a superbill upon request.
+

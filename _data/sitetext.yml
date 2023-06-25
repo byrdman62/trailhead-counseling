@@ -11,24 +11,24 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Come sit on our couch
-    text: It's cozy!
+    title: Welcome
+    text: Let us walk through this journey with you.
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Life's like a box o' chocolates, you never know what you're gonna get."
+    title: "Our Services"
+    text: "No matter what season of life you are in, we're there for you.<br> We can help with anxiety/depression, self-esteem/life transitions, PTSD/trauma, and grief."
     section: services
     list:
-      - title: "Kind Words"
-        desc: "I can speak kind words to you when you want them most."
-        icon: fas fa-heart #find more at https://fontawesome.com/icons
-      - title: "Much Needed Scolding"
-        desc: "When you did that stupid thing, sometimes you just need someone to tell you that it's all your fault."
-        icon: fas fa-thumbs-up
-      - title: "A Kick In The Pants"
-        desc: "When you just won't get off the couch, I'm here to get you buzzing"
+      - title: "Individual Therapy"
+        desc: "We offer therapy for children, adolescents, and adults"
+        icon: fas fa-user #find more at https://fontawesome.com/icons
+      - title: "Family Therapy"
+        desc: "As Marriage and Family Therapists, we see how important it is to work on improving family dynamics"
+        icon: fas fa-home
+      - title: "AAMFT Approved Supervision"
+        desc: "For individuals who are seeking their MFT license in the state of Tennessee"
         icon: fas fa-check
 
   portfolio:
@@ -70,8 +70,8 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Our Mission"
+    body: "As Marriage and Family Therapist's (MFT's), we want to be a support for you as you or your loved ones embark on a journey of change. We want to help you heal, grow, and become the best version of yourself."
     section: about
 
   # clients:
@@ -93,21 +93,23 @@ en: &DEFAULT_EN
   #       logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Meet the Therapist"
+    text: "We have a passion for meeting client's where they are and walking with them as they face life's
+obstacles.<br> With empathy and compassion, we will support you or your child as you navigate
+the stressors of life."
+    subtext: "Kristi has over 10 years of experience providing services for children, college students and adults as a Licensed Marriage and Family Therapist. She is an AAMFT approved supervisor and enjoys providing supervision for MFT Interns in the state of Tennessee as they are pursuing licensure. Kristi also teaches adjunct through Lee University for both their in person and online programs. When she is not working, she enjoys spending time with family and friends at the lake or in the mountains, going for walks, playing games, and putting together puzzles."
     section: team
     people:
       - name: "Kristi Byrd"
-        role: "ABC, ESPN, Captain of Ceremonies"
+        role: "M.S., LMFT, AAMFT Approved Supervisor"
         image: assets/img/team/KristiByrd.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://www.psychologytoday.com/us/therapists/kristi-byrd-cleveland-tn/1016765
+            icon: fas fa-user-circle
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
       # - name: "Larry Parker"
       #   role: "Lead Marketer"
       #   image: assets/img/team/2.jpg
@@ -129,10 +131,10 @@ en: &DEFAULT_EN
       #     - url: https://linkedin.com
       #       icon: fab fa-linkedin-in
 
-  # contact:
-  #   title: "Contact Us"
-  #   text: "Lorem ipsum or call 123456789"
-  #   section: contact
+  contact:
+    title: "Contact Us"
+    text: "Call (423) 740-0742"
+    section: contact
   #   name: "Name*"
   #   name-validation: "Please enter your name."
   #   email: "Email*"

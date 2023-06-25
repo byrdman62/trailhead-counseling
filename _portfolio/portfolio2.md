@@ -1,19 +1,21 @@
 ---
-title: Our Methods
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: assets/img/portfolio/05-thumbnail.jpg
-alt: Shirts on a hanger
+title: Our Approach To Counseling
+subtitle: 
+images:
+  - image: assets/img/portfolio/05-thumbnail.jpg
+    alt: Shirts on a hanger
 
 caption:
-  title: Our Methods
-  subtitle: Illustration
+  title: Our Approach To Counseling
+  subtitle: 
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
 
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+The following are some of the counseling approaches we use:
 
 {:.list-inline}
 
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
+- <h6>Cognitive Behavioral Therapy (CBT)</h6>
+- <h6>Dialectical Behavioral Therapy (DBT)</h6>
+- <h6>Solution Focused Therapy (SFT)</h6>
+- <h6>Eye Movement Desensitization and Reprocessing (EMDR)</h6>

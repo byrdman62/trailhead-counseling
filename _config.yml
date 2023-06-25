@@ -11,9 +11,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# theme: jekyll-agency
+theme: jekyll-agency
 # This needs to be uncommented to deploy to GitHub Pages
-remote_theme: raviriley/agency-jekyll-theme
+# remote_theme: raviriley/agency-jekyll-theme
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/trailhead-counseling" # the subpath of your site, e.g. /blog
@@ -42,4 +42,4 @@ markdown: kramdown
 
 # This needs to be uncommented to deploy to GitHub Pages
 # plugins:
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
