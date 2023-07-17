@@ -13,27 +13,27 @@ en: &DEFAULT_EN
   header:
     title: Let us walk through this journey with you.
     text: Welcome
-    button: Tell Me More
-    buttonlink: "#services"
+    button: Contact Us
+    buttonlink: "#contact"
 
   services:
     title: "Our Services"
-    text: "No matter what season of life you are in, we're there for you.<br> We can help with anxiety/depression, self-esteem/life transitions, PTSD/trauma, and grief."
+    text: "No matter what season of life you are in, we're there for you.<br><br> We can help with anxiety, depression, self-esteem, life transitions, PTSD/trauma, grief, and more. Beginning your therapy journey is a courageous and transformative decision. At our practice, we are committed to providing you with a supportive, compassionate, and effective therapeutic experience. By taking this step, you are investing in your mental health and well-being. Contact us today to schedule an appointment and begin your journey towards healing, growth, and a more fulfilling life."
     section: services
     list:
       - title: "Individual Therapy"
-        desc: "We offer therapy for children, adolescents, and adults"
+        desc: "Individual therapy, also known as counseling or psychotherapy, is a collaborative process between you and a skilled marriage and family therapist. It is a one-on-one therapeutic relationship focused on your unique experiences, concerns, and goals. Our approach recognizes that the issues you face are influenced by a range of factors, including your personal history, relationships, and larger systems such as family, culture, and society."
         icon: fas fa-user #find more at https://fontawesome.com/icons
       - title: "Family Therapy"
-        desc: "As Marriage and Family Therapists, we see how important it is to work on improving family dynamics"
+        desc: "Family therapy, also known as couples and family counseling, is a specialized form of therapy that focuses on understanding and addressing the unique dynamics within family systems. It involves working collaboratively with all family members to identify and navigate challenges, improve communication, and strengthen familial bonds. Our approach recognizes that families are complex, diverse, and influenced by various factors, including relationships, culture, and individual experiences."
         icon: fas fa-home
       - title: "AAMFT Approved Supervision"
-        desc: "For individuals who are seeking their MFT license in the state of Tennessee"
+        desc: "Are you a therapist passionate about working with children and families? As AAMFT-approved supervisors and licensed marriage and family therapists, We offer specialized supervision that focuses on enhancing your skills and expertise in providing effective therapy for children. Through our collaborative supervision process, we will explore innovative strategies, dive into case conceptualization, and cultivate your therapeutic presence to empower you in making a positive impact on the lives of the young ones we serve."
         icon: fas fa-check
 
   portfolio:
     title: "What to Expect"
-    text: "To set you up for success, here are some things to expect when you get here."
+    text: "Entering therapy can be both exciting and daunting. We understand that taking this step towards improving your mental health and well-being requires trust and a clear understanding of what to expect. At our therapy practice, we aim to create a safe and supportive environment where you can embark on a transformative journey of healing and personal growth."
     section: portfolio
     closebutton: "Close"
 
@@ -148,17 +148,17 @@ the stressors of life."
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
