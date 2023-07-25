@@ -11,6 +11,14 @@ section#contact {
   .section-heading {
     color: $white;
   }
+  .section-subheading {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-transform: none;
+    @include serif-font;
+  }
   .form-group {
     margin-bottom: 25px;
     input,
