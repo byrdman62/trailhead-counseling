@@ -14,13 +14,17 @@
 	  
       <div class="row text-center">
 	  {% for service in site.data.sitetext[site.locale].services.list %}
-        <div class="col-md-4">
+        <div class="col-lg-4">
+          {% if service.image %}
+          <img class="img-fluid mx-auto rounded-circle service-image" src="{{ service.image }}" alt="{{ service.alt | default: '' }}">
+          {% else %}
           <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            <i class="{{ service.icon | default: 'fas fa-shopping-cart' }} fa-stack-1x fa-inverse"></i>
           </span>
+          {% endif %}
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
+          {% if service.desc %}<div class="text-muted service-body">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
 	  {% endfor %}
       </div>
