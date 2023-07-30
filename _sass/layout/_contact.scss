@@ -4,18 +4,14 @@ section#contact {
   background-image: url("#{$contact-image}");
   background-repeat: no-repeat;
   background-position: center;
-  .row-background-image {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   .section-heading {
     color: $white;
   }
   .section-subheading {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: italic;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-transform: none;
     @include serif-font;
   }
@@ -55,5 +51,21 @@ section#contact {
     font-weight: 700;
     color: $gray-400;
     @include heading-font;
+  }
+  a.nav-link, a.nav-link:visited, a.nav-link:active {
+    text-decoration: none;
+  }
+  .nobr {
+    white-space: nowrap;
+  }
+  @media (min-width: 576px) {
+    .section-subheading {
+     font-size: 24px;
+     margin-bottom: 20px;
+    }
+    .row-background-image {
+      padding-top: 28px;
+      padding-bottom: 28px;
+    }
   }
 }
