@@ -134,13 +134,15 @@ the stressors of life."
   contact:
     title: "Contact Us"
     point:
+      - text: "Make an appointment online"
+        link: "https://meetmonarch.com/therapist/kristina-byrd-cleveland-tn"
+        icon: fas fa-laptop
       - text: "(423) 740-0742"
         icon: fas fa-phone
       - text: "info@trailheadcounseling.com"
         icon: fas fa-envelope
       - text: "3505 Adkisson Dr Ste 206<br>Cleveland TN 37312"
         icon: fas fa-map-marker
-    # text: "Call us at (423) 740-0742<br>or<br> Email us at info@trailheadcounseling.com"
     section: contact
   #   name: "Name*"
   #   name-validation: "Please enter your name."
