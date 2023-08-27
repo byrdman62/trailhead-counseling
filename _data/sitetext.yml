@@ -46,7 +46,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Our Mission"
-    body: "At Trailhead Counseling and Consulting, we are dedicated to guiding you on your path to healing, growth, and resilience. Our licensed marriage and family therapist offers comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change.
+    body: "At Trailhead Counseling and Consulting, PLLC, we are dedicated to guiding you on your path to healing, growth, and resilience. Our licensed marriage and family therapist offers comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change.
 Just like a trailhead marks the beginning of a journey, we see therapy as the starting point for transformation. We understand that every individual, child, and family has a unique story and set of experiences. That's why our approach is tailored to meet your specific needs, preferences, and goals. 
 We invite you to contact us today to schedule a consultation and embark on your journey to healing, growth, and resilience. Together, we'll navigate the trails of life, and you can discover the strength and transformation that lie&nbsp;ahead."
     section: about
@@ -65,6 +65,8 @@ the stressors of&nbsp;life."
         social:
           - url: https://www.psychologytoday.com/us/therapists/kristi-byrd-cleveland-tn/1016765
             icon: fas fa-user-circle
+          - url: http://www.linkedin.com/in/kristi-byrd-02a987289
+            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
