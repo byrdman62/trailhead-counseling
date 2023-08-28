@@ -22,4 +22,7 @@ College students: Ask about a special rate for you!<br>
  We are a self-pay practice only. 
 
 Licensed therapists are able to provide a superbill upon request.
+<br><br>
+<h4>AAMFT Approved Supervision for MFTs:</h4>
+<h6>$100 for each 1 hour session</h6>
 
