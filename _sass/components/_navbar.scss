@@ -1,6 +1,14 @@
 // Styling for the navbar
 #mainNav {
-  background-color: $menu-gray;
+  border: none;
+  background-color: transparent;
+  -webkit-transition: background-color .30s ease-in-out;
+  -moz-transition: background-color .30s ease-in-out;
+  -o-transition: background-color .30s ease-in-out;
+  transition: background-color .30s ease-in-out;
+  &.navbar-opaque, &.navbar-shrink {
+    background-color: $menu-gray;
+  }
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -16,7 +24,7 @@
   }
   .animated-icon {
     width: 30px;
-    height: 20px;
+    height: 23px;
     position: relative;
     margin: 0px;
     -webkit-transform: rotate(0deg);
