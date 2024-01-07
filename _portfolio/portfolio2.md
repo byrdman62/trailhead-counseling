@@ -2,13 +2,13 @@
 title: Our Approach To Counseling
 subtitle: 
 images:
-  - image: assets/img/portfolio/girl-playing-in-water.png
+  - image: assets/img/webp/portfolio/girl-playing-in-water.webp
     alt: Shirts on a hanger
 
 caption:
   title: Our Approach To Counseling
   subtitle: 
-  thumbnail: assets/img/portfolio/girl-playing-in-water.png
+  thumbnail: assets/img/webp/portfolio/girl-playing-in-water.webp
 ---
 
 <h6>Initial Consultation</h6> Our therapy process typically begins with an initial consultation. This session provides an opportunity for you or your child to meet the therapist, discuss your goals, and ask any questions you may have. We will explore your concerns, understand your background and history, and collaboratively determine the best course of therapy for you or your child's unique&nbsp;needs.
