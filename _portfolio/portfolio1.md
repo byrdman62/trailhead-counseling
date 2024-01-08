@@ -2,27 +2,27 @@
 caption: #what displays in the portfolio grid:
   title: Our Space
   subtitle: 
-  thumbnail: assets/img/portfolio/OfficeArea1.png
+  thumbnail: assets/img/webp/portfolio/OfficeArea1.webp
   
 #what displays when the item is clicked:
 title: Our Space
 subtitle: 
 images:
-  - image: assets/img/portfolio/OfficeArea1.png #main image, can be a link or a file in assets/img/portfolio
+  - image: assets/img/webp/portfolio/OfficeArea1.webp #main image, can be a link or a file in assets/img/portfolio
     alt: Office Image 1
-  - image: assets/img/portfolio/OfficeArea2.png
+  - image: assets/img/webp/portfolio/OfficeArea2.webp
     alt: Office Image 2
-  - image: assets/img/portfolio/OfficeArea3.png
+  - image: assets/img/webp/portfolio/OfficeArea3.webp
     alt: Office Image 3
-  - image: assets/img/portfolio/OfficeArea4.png
+  - image: assets/img/webp/portfolio/OfficeArea4.webp
     alt: Office Image 4
-  - image: assets/img/portfolio/OfficeArea5.png
+  - image: assets/img/webp/portfolio/OfficeArea5.webp
     alt: Office Image 5
-  - image: assets/img/portfolio/OfficeArea6.png
+  - image: assets/img/webp/portfolio/OfficeArea6.webp
     alt: Office Image 6
-  - image: assets/img/portfolio/OfficeArea7.png
+  - image: assets/img/webp/portfolio/OfficeArea7.webp
     alt: Office Image 7
-  - image: assets/img/portfolio/OfficeArea8.png
+  - image: assets/img/webp/portfolio/OfficeArea8.webp
     alt: Office Image 8
 
 ---

@@ -2,13 +2,13 @@
 title: Our Prices
 subtitle: 
 images:
-  - image: assets/img/portfolio/butterfly.png
+  - image: assets/img/webp/portfolio/butterfly.webp
     alt: Keep Exploring
 
 caption:
   title: Our Prices
   subtitle: 
-  thumbnail: assets/img/portfolio/butterfly.png
+  thumbnail: assets/img/webp/portfolio/butterfly.webp
 ---
 
 <h4>Licensed Marriage and Family Therapist:</h4>
