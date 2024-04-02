@@ -1,9 +1,11 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top" aria-label="Go to the top of the page">
           {%- if site.logo -%}
-            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+            <img height="{{ site.logo.height | default: 52 }}"
+            src="{{ site.logo.path }}"
+            alt="{{ site.title }} Logo"/>
           {%- else -%}
             {{ site.title }}
           {%- endif -%}
