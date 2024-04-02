@@ -5,11 +5,12 @@
   style="background-color: #212529"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#">
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#"  aria-label="Go to the top of the page">
       {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
         src="{{ site.logo.path }}"
+        alt="{{ site.title }} Logo"
       />
       {%- else -%} {{ site.title }} {%- endif -%}
     </a>

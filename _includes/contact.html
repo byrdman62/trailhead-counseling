@@ -8,19 +8,21 @@
         </h2>
         <ul class="list-inline">
           {% for poc in site.data.sitetext[site.locale].contact.point %}
-            {% if poc.link and poc.link != "" and poc.link != nil %}
-            <a class="nav-link section-subheading text-white" href="{{ poc.link }}">
-              <i class="{{ poc.icon }} text-white"></i>
-              <br class="d-sm-none">
-              &nbsp;&nbsp;{{ poc.text | default: poc.link }}
-            </a>
-            {% else %}
-            <h2 class="nav-link section-subheading text-white">
-              <i class="{{ poc.icon }} text-white"></i>
-              <br class="d-sm-none">
-              &nbsp;&nbsp;{{ poc.text | default: "" }}
-            </h2>
-            {% endif %}
+            <li>
+              {% if poc.link and poc.link != "" and poc.link != nil %}
+              <a class="nav-link section-subheading text-white" href="{{ poc.link }}">
+                <i class="{{ poc.icon }} text-white"></i>
+                <br class="d-sm-none">
+                &nbsp;&nbsp;{{ poc.text | default: poc.link }}
+              </a>
+              {% else %}
+              <h2 class="nav-link section-subheading text-white">
+                <i class="{{ poc.icon }} text-white"></i>
+                <br class="d-sm-none">
+                &nbsp;&nbsp;{{ poc.text | default: "" }}
+              </h2>
+              {% endif %}
+            </li>
           {% endfor %}
         </ul>
       </div>
