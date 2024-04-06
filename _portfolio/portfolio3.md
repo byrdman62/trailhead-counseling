@@ -11,18 +11,30 @@ caption:
   thumbnail: assets/img/webp/portfolio/butterfly.webp
 ---
 
-<h4>Licensed Marriage and Family Therapist:</h4>
+<h2>Marriage and Family Therapists:</h2>
+<br>
+
+<h3>Kristi's Rates</h3>
 <h6>$150 for the initial intake session</h6>
 <h6>$130 for each 50 minute session</h6>
 <h6>$70 for 25 minute sessions</h6>
+<div><br></div>
+<h5>AAMFT Approved Supervision for MFTs:</h5>
+<h6>$100 for each 1 hour session</h6>
+<br>
+<br>
 
-College students: Ask about a special rate for you!<br>
+<h3>Hannah's Rates</h3>
+<h6>$110 for the initial intake session</h6>
+<h6>$85 for each 50 minute session</h6>
+<h6>$50 for 25 minute sessions</h6>
+
+<br>
+<br>
 
 **\*\*We currently do not accept insurance\*\***<br>
  We are a self-pay practice only. 
 
-Licensed therapists are able to provide a superbill upon request.
-<br><br>
-<h4>AAMFT Approved Supervision for MFTs:</h4>
-<h6>$100 for each 1 hour session</h6>
+Therapists are able to provide a superbill upon request.
+
 
