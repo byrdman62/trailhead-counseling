@@ -32,7 +32,7 @@ en: &DEFAULT_EN
         alt: Image of feet of a father and his young son
         icon: fas fa-home
       - title: "AAMFT Approved Supervision"
-        desc: "Are you a therapist passionate about working with children and families? As AAMFT-approved supervisors and licensed marriage and family therapists, We offer specialized supervision that focuses on enhancing your skills and expertise in providing effective therapy for children. Through our collaborative supervision process, we will explore innovative strategies, dive into case conceptualization, and cultivate your therapeutic presence to empower you in making a positive impact on the lives of the young ones we&nbsp;serve."
+        desc: "Are you a therapist passionate about working with children and families? Our AAMFT-approved supervisor and licensed marriage and family therapist offers specialized supervision that focuses on enhancing your skills and expertise in providing effective therapy for children. Through our collaborative supervision process, we will explore innovative strategies, dive into case conceptualization, and cultivate your therapeutic presence to empower you in making a positive impact on the lives of the young ones we&nbsp;serve."
         image: assets/img/webp/services/hand_writing.webp
         alt: Image of a hand writing
         icon: fas fa-check
@@ -46,7 +46,7 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Our Mission"
-    body: "At Trailhead Counseling and Consulting, PLLC, we are dedicated to guiding you on your path to healing, growth, and resilience. Our licensed marriage and family therapist offers comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change.
+    body: "At Trailhead Counseling and Consulting, PLLC, we are dedicated to guiding you on your path to healing, growth, and resilience. Our marriage and family therapists offer comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change.
 Just like a trailhead marks the beginning of a journey, we see therapy as the starting point for transformation. We understand that every individual, child, and family has a unique story and set of experiences. That's why our approach is tailored to meet your specific needs, preferences, and goals. 
 We invite you to contact us today to schedule a consultation and embark on your journey to healing, growth, and resilience. Together, we'll navigate the trails of life, and you can discover the strength and transformation that lie&nbsp;ahead."
     section: about
@@ -74,9 +74,9 @@ the stressors of&nbsp;life."
         image: assets/img/webp/team/HannahFraser.webp
         description: "Hannah has worked with children and families in a variety of capacities over the past 5 years, including one year working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Informed Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
         social:
-          # - url: 
-          #   icon: fas fa-user-circle
-          #   alt: Hannah's Psychology Today Profile
+          - url: https://www.psychologytoday.com/us/therapists/hannah-fraser-cleveland-tn/1288963
+            icon: fas fa-user-circle
+            alt: Hannah's Psychology Today Profile
           - url: https://www.linkedin.com/in/hannah-fraser-mft-i-3713581a2/
             icon: fab fa-linkedin-in
             alt: Hannah's LinkedIn
