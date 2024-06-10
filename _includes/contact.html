@@ -1,8 +1,8 @@
 <!-- Contact -->
-<section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
+<section class="page-section xs-only-translucent-bg" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
   <div class="container">
-    <div class="row row-background-image">
-      <div class="col-lg-12 text-center">
+    <div class="row row-background-image justify-content-center">
+      <div class="text-center s-up-translucent-bg">
         <h2 class="section-heading text-uppercase">
           {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}
         </h2>
@@ -10,14 +10,14 @@
           {% for poc in site.data.sitetext[site.locale].contact.point %}
             <li>
               {% if poc.link and poc.link != "" and poc.link != nil %}
-              <a class="nav-link section-subheading text-white" href="{{ poc.link }}">
-                <i class="{{ poc.icon }} text-white"></i>
+              <a class="nav-link section-subheading text-primary" href="{{ poc.link }}">
+                <i class="{{ poc.icon }} text-primary"></i>
                 <br class="d-sm-none">
                 &nbsp;&nbsp;{{ poc.text | default: poc.link }}
               </a>
               {% else %}
-              <h2 class="nav-link section-subheading text-white">
-                <i class="{{ poc.icon }} text-white"></i>
+              <h2 class="nav-link section-subheading text-primary">
+                <i class="{{ poc.icon }} text-primary"></i>
                 <br class="d-sm-none">
                 &nbsp;&nbsp;{{ poc.text | default: "" }}
               </h2>

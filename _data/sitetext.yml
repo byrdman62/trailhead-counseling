@@ -59,7 +59,7 @@ the stressors of&nbsp;life."
     section: team
     people:
       - name: "Kristi Byrd"
-        role: "M.S., LMFT, AAMFT Approved Supervisor"
+        role: "MS, LMFT, AAMFT Approved Supervisor"
         image: assets/img/webp/team/KristiByrd.webp
         description: "Kristi has over 10 years of experience providing services for children, college students and adults as a Licensed Marriage and Family Therapist. She is an AAMFT approved supervisor and enjoys providing supervision for MFT Interns in the state of Tennessee as they are pursuing licensure. Kristi particularly enjoys offering supervision for those working with individuals, children and families. She works with therapists to enhance their therapeutic skills while focusing on ethical dynamics and case conceptualization. Kristi also teaches adjunct through Lee University for both their in person and online programs. When she is not working, she enjoys spending time with family and friends at the lake or in the mountains, going for walks, playing games, and putting together&nbsp;puzzles."
         social:
@@ -70,9 +70,9 @@ the stressors of&nbsp;life."
             icon: fab fa-linkedin-in
             alt: Kristi's LinkedIn
       - name: "Hannah Fraser"
-        role: "MFT-I"
+        role: "MS, MFT-I"
         image: assets/img/webp/team/HannahFraser.webp
-        description: "Hannah has worked with children and families in a variety of capacities over the past 5 years, including one year working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Informed Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
+        description: "Hannah has worked with children and families in a variety of capacities over the past 5 years, including one year working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
         social:
           - url: https://www.psychologytoday.com/us/therapists/hannah-fraser-cleveland-tn/1288963
             icon: fas fa-user-circle
@@ -84,15 +84,18 @@ the stressors of&nbsp;life."
   contact:
     title: "Contact Us"
     point:
-      - text: "Make an appointment online"
+      - text: "Make an appointment with Kristi"
         link: "https://meetmonarch.com/therapist/kristina-byrd-cleveland-tn"
         icon: fas fa-laptop
-      - text: "(423) 740-0742"
-        icon: fas fa-phone
+      - text: "Make an appointment with Hannah"
+        link: "https://meetmonarch.com/therapist/hannah-fraser-cleveland-tn"
+        icon: fas fa-laptop
       - text: "info@trailheadcounseling.com"
         icon: fas fa-envelope
       - text: "3505 Adkisson Dr Ste 206<br>Cleveland TN 37312"
         icon: fas fa-map-marker
+      - text: "(423) 740-0742"
+        icon: fas fa-phone
     section: contact
 
   footer:
