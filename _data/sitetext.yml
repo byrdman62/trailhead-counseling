@@ -13,8 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Let us walk through this journey with you.
     text: Welcome
-    button: Contact Us
-    buttonlink: "#contact"
+    spbutton: Request Appointment
 
   services:
     title: "Our Services"
@@ -84,12 +83,12 @@ the stressors of&nbsp;life."
   contact:
     title: "Contact Us"
     point:
-      - text: "Make an appointment with Kristi"
-        link: "https://meetmonarch.com/therapist/kristina-byrd-cleveland-tn"
-        icon: fas fa-laptop
-      - text: "Make an appointment with Hannah"
-        link: "https://meetmonarch.com/therapist/hannah-fraser-cleveland-tn"
-        icon: fas fa-laptop
+      # - text: "Make an appointment with Kristi"
+      #   link: "https://meetmonarch.com/therapist/kristina-byrd-cleveland-tn"
+      #   icon: fas fa-laptop
+      # - text: "Make an appointment with Hannah"
+      #   link: "https://meetmonarch.com/therapist/hannah-fraser-cleveland-tn"
+        # icon: fas fa-laptop
       - text: "info@trailheadcounseling.com"
         icon: fas fa-envelope
       - text: "3505 Adkisson Dr Ste 206<br>Cleveland TN 37312"

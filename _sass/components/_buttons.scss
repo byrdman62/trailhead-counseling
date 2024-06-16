@@ -4,6 +4,10 @@
   font-weight: 700;
 }
 
+.btn-outline {
+  box-shadow: 0 0 0 .1rem rgba(255, 255, 255, 0.5) inset !important;
+}
+
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
@@ -21,6 +25,13 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+    box-shadow: 0 0 0 0.2rem $secondary !important;
+  }
+}
+
+.btn-grow {
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
   }
 }
