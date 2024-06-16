@@ -6,6 +6,16 @@
         <h2 class="section-heading text-uppercase">
           {{ site.data.sitetext[site.locale].contact.title | markdownify | default: Contact Us }}
         </h2>
+        <!-- Start SimplePractice Appointment-Request Widget Embed Code -->
+        <div class="spwidget-button-wrapper">
+          <a href="https://trailheadcounseling.clientsecure.me" class="spwidget-button btn btn-primary btn-grow"
+            data-spwidget-scope-id="b50d0078-3537-4f01-8a16-df1e2d05dce0" data-spwidget-scope-uri="trailheadcounseling"
+            data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
+            data-spwidget-scope-global data-spwidget-autobind>Request Appointment
+          </a>
+        </div>
+        <script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
+        <!-- End SimplePractice Appointment-Request Widget Embed Code -->
         <ul class="list-inline">
           {% for poc in site.data.sitetext[site.locale].contact.point %}
             <li>

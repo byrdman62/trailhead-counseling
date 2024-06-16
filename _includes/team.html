@@ -18,7 +18,7 @@
 		<ul class="list-inline social-buttons">
 		{% for network in person.social %}
 		  <li class="list-inline-item">
-			<a href="{{ network.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ network.alt }}">
+			<a href="{{ network.url }}" class="btn-grow" target="_blank" rel="noopener noreferrer" aria-label="{{ network.alt }}">
 			  <i class="{{ network.icon }}" alt="{{ network.alt }}"></i>
 			</a>
 		  </li>
@@ -57,7 +57,7 @@
 			<ul class="list-inline social-buttons">
 			{% for network in person.social %}
 			  <li class="list-inline-item">
-				<a href="{{ network.url }}">
+				<a href="{{ network.url }}" class="btn-grow">
 				  <i class="{{ network.icon }}"></i>
 				</a>
 			  </li>
