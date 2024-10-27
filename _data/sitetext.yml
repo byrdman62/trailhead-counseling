@@ -99,6 +99,11 @@ the stressors of&nbsp;life."
 
   footer:
     legal: "Privacy Policy"
+    social:
+      - url: https://www.facebook.com/share/bD6EvoL431WctZ3H/?mibextid=LQQJ4d
+        icon: fab fa-facebook
+      - url: https://www.instagram.com/trailheadcounselingpllc/profilecard/?igsh=dnZpM3o2YTB2MGlv
+        icon: fab fa-instagram
 
 en-US:
   <<: *DEFAULT_EN
