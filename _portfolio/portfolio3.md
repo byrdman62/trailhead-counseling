@@ -25,9 +25,9 @@ caption:
 <br>
 
 <h3>Hannah's Rates</h3>
-<h6>$110 for the initial intake session</h6>
-<h6>$85 for each 50 minute session</h6>
-<h6>$50 for 25 minute sessions</h6>
+<h6>$130 for the initial intake session</h6>
+<h6>$100 for each 50 minute session</h6>
+<h6>$55 for 25 minute sessions</h6>
 
 <br>
 <br>
