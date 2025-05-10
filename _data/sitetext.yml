@@ -21,7 +21,7 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "Individual Therapy"
-        desc: "Individual therapy, also known as counseling or psychotherapy, is a collaborative process between you or your child and a skilled marriage and family therapist. It is a one-on-one therapeutic relationship focused on your unique experiences, concerns, and goals. Our approach recognizes that the issues you face are influenced by a range of factors, including your personal history, relationships, and larger systems such as family, culture, and&nbsp;society."
+        desc: "Individual therapy, also known as counseling or psychotherapy, is a collaborative process between you or your child and a skilled therapist. It is a one-on-one therapeutic relationship focused on your unique experiences, concerns, and goals. Our approach recognizes that the issues you face are influenced by a range of factors, including your personal history, relationships, and larger systems such as family, culture, and&nbsp;society."
         image: assets/img/webp/services/therapy_session.webp
         alt: Image of two people talking
         icon: fas fa-user #find more at https://fontawesome.com/icons
@@ -45,15 +45,12 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "Our Mission"
-    body: "At Trailhead Counseling and Consulting, PLLC, we are dedicated to guiding you on your path to healing, growth, and resilience. Our marriage and family therapists offer comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change.
-Just like a trailhead marks the beginning of a journey, we see therapy as the starting point for transformation. We understand that every individual, child, and family has a unique story and set of experiences. That's why our approach is tailored to meet your specific needs, preferences, and goals. 
-We invite you to contact us today to schedule a consultation and embark on your journey to healing, growth, and resilience. Together, we'll navigate the trails of life, and you can discover the strength and transformation that lie&nbsp;ahead."
+    body: "At Trailhead Counseling and Consulting, PLLC, we are dedicated to guiding you on your path to healing, growth, and resilience. Our marriage and family therapists offer comprehensive therapy services for individuals, children, and families, providing a safe and nurturing space to explore life's challenges and create positive change. Just like a trailhead marks the beginning of a journey, we see therapy as the starting point for transformation. We understand that every individual, child, and family has a unique story and set of experiences. That's why our approach is tailored to meet your specific needs, preferences, and goals. We invite you to contact us today to schedule a consultation and embark on your journey to healing, growth, and resilience. Together, we'll navigate the trails of life, and you can discover the strength and transformation that lie&nbsp;ahead."
     section: about
 
   team:
     title: "Meet the Therapists"
-    text: "We have a passion for meeting client's where they are and walking with them as they face life's obstacles. With empathy and compassion, we will support you or your child as you navigate
-the stressors of&nbsp;life."
+    text: "We have a passion for meeting client's where they are and walking with them as they face life's obstacles. With empathy and compassion, we will support you or your child as you navigate the stressors of&nbsp;life."
     subtext: 
     section: team
     people:
@@ -68,10 +65,18 @@ the stressors of&nbsp;life."
           - url: http://www.linkedin.com/in/kristi-byrd-02a987289
             icon: fab fa-linkedin-in
             alt: Kristi's LinkedIn
+      - name: "Kayla Johns"
+        role: "MS, LPC-MHSP"
+        image: assets/img/webp/team/KaylaJohns.webp
+        description: "Kayla has been working as a therapist, specifically with children, teens, young adults, and families, for the past five years. From school-based therapy, to working in residential treatment, and now private practice, Kayla works to create a safe space for her clients to identify and process underlying factors that can cause anxiety, depression, anger, or any other overwhelming feelings that may come up. Kayla is trained in trauma-informed approaches, as well as Dialectical Behavioral Therapy (DBT). In addition, she has experience working with attachment issues, autism, anger management, and behavioral issues.  When she's not working, Kayla enjoys reading, baking, going to the gym, and spending time outside with her dog."
+        social:
+          - url: https://www.psychologytoday.com/us/therapists/kayla-johns-cleveland-tn/1519923
+            icon: fas fa-user-circle
+            alt: Kayla's Psychology Today Profile
       - name: "Hannah Fraser"
-        role: "MS, MFT-I"
+        role: "MS, Marriage and Family Therapist Intern (temporary license)"
         image: assets/img/webp/team/HannahFraser.webp
-        description: "Hannah has worked with children and families in a variety of capacities over the past 6 years, including two years working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. Hannah has recently completed training in Comprehensive Behavioral Intervention for Tics (CBIT) as well. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
+        description: "Hannah has worked with children and families in a variety of capacities over the past 7 years, including three years working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. Hannah has recently completed training in Comprehensive Behavioral Intervention for Tics (CBIT) as well. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
         social:
           - url: https://www.psychologytoday.com/us/therapists/hannah-fraser-cleveland-tn/1288963
             icon: fas fa-user-circle
