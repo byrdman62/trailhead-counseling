@@ -11,10 +11,10 @@ caption:
   thumbnail: assets/img/webp/portfolio/butterfly.webp
 ---
 
-<h2>Marriage and Family Therapists:</h2>
+<h2>Therapist Prices:</h2>
 <br>
 
-<h3>Kristi's Rates</h3>
+<h3>Kristi and Kayla’s Rates (licensed)</h3>
 <h6>$150 for the initial intake session</h6>
 <h6>$130 for each 50 minute session</h6>
 <h6>$70 for 25 minute sessions</h6>
@@ -24,7 +24,7 @@ caption:
 <br>
 <br>
 
-<h3>Hannah's Rates</h3>
+<h3>Hannah’s Rates - Marriage and Family Therapist Intern (temporary license)</h3>
 <h6>$130 for the initial intake session</h6>
 <h6>$100 for each 50 minute session</h6>
 <h6>$55 for 25 minute sessions</h6>
