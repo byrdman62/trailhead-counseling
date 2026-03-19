@@ -21,6 +21,8 @@ en: &DEFAULT_EN
     #   section: timeline
     - title: "Team"
       section: team
+    - title: "Blogs"
+      section: blogs
     - title: "Contact"
       section: contact
     # - title: "Theme Source"

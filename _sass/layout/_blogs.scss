@@ -1,0 +1,100 @@
+// Blogs section styling
+#blogs {
+  background-color: $gray-100; // Light cream/warm background for the section
+  padding: 100px 0;
+
+  .section-heading {
+    margin-bottom: 10px;
+    @include heading-font;
+    text-transform: uppercase;
+    color: $primary; // Brand green
+  }
+
+  .section-subheading {
+    margin-bottom: 80px;
+    @include serif-font;
+    font-style: italic;
+  }
+}
+
+.blogs-item {
+  margin-bottom: 30px;
+  
+  .blogs-card {
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    aspect-ratio: 2 / 3;
+
+    &:hover {
+      transform: translateY(-5px);
+      text-decoration: none;
+    }
+
+    // Colors that flow with the brand green (#314940)
+    &.card-1 { background-color: #f2ede4; } // Warm neutral
+    &.card-2 { background-color: #b8c2be; } // Muted green-grey (flows with brand green)
+    &.card-3 { background-color: #edeae2; } // Another warm neutral
+  }
+
+  .blogs-image-container {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+    
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  .blogs-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .blogs-subtitle {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    @include heading-font;
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .blogs-title {
+    @include heading-font;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    color: $primary; // Use brand green for the title
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+
+  .blogs-footer {
+    margin-top: auto;
+    text-align: center;
+    
+    .blogs-date {
+      font-size: 10px;
+      letter-spacing: 1px;
+      @include body-font;
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .blogs-item .blogs-title {
+    font-size: 22px;
+  }
+}

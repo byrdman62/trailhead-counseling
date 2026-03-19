@@ -45,6 +45,7 @@ To develop and preview the site locally, ensure you have Ruby and Bundler instal
 ### Styling
 - Custom styles should be added to the appropriate SCSS file in `_sass/`.
 - The main entry point for SCSS is `assets/css/agency.scss`.
+- Use the colors in `_sass/base/_variables.scss` where possible, and if adding a new color, add it to this file and use the variable
 
 ### Forms
 - The contact form is configured to send emails to `info@trailheadcounseling.com` as specified in `_config.yml`. It uses `assets/js/contact_me.js` for validation and submission.
