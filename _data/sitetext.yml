@@ -85,6 +85,11 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
             alt: Hannah's LinkedIn
 
+  blogs:
+    title: "Our Blogs"
+    text: "Read our latest articles on mental health and therapy."
+    section: blogs
+
   contact:
     title: "Contact Us"
     point:
