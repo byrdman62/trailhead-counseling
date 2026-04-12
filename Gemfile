@@ -4,6 +4,7 @@ gemspec
 
 gem "csv"
 gem "base64"
+gem "jekyll-remote-theme"
 
 # Delete the following lines if not on Windows: 
 # Performance-booster for watching directories on Windows
