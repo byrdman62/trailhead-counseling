@@ -74,7 +74,7 @@ en: &DEFAULT_EN
             icon: fas fa-user-circle
             alt: Kayla's Psychology Today Profile
       - name: "Hannah Fraser"
-        role: "MS, Marriage and Family Therapist Intern (temporary license)"
+        role: "MS, AMFT (temporary license)"
         image: assets/img/webp/team/HannahFraser.webp
         description: "Hannah has worked with children and families in a variety of capacities over the past 7 years, including three years working as a Marriage and Family Therapist with children, teens, families, and young adults. Hannah particularly enjoys working with children and families, focusing on anxiety, autism, trauma, grief, behavioral issues, and family dynamics. Hannah strives to create a welcoming and non-judgemental therapeutic environment in which clients can openly share, grow, and heal. She is trained in Trauma-Focused Cognitive Behavioral Therapy (TF-CBT), play therapy, and a variety of other evidence-based practices. Hannah has recently completed training in Comprehensive Behavioral Intervention for Tics (CBIT) as well. When Hannah is not working, she enjoys reading novels, hiking and fly fishing with her husband, taking her dog for walks, gardening, and playing&nbsp;games."
         social:
@@ -84,6 +84,32 @@ en: &DEFAULT_EN
           - url: https://www.linkedin.com/in/hannah-fraser-ms-mft-i-3713581a2/
             icon: fab fa-linkedin-in
             alt: Hannah's LinkedIn
+      - name: "Anna Vyhmeister"
+        role: "MDiv., Marriage and Family Therapy Graduate Intern<br>(under supervision by Kristi Rice, LMFT)"
+        image: assets/img/webp/team/AnnaVyhmeister.webp
+        description: >-
+          Anna brings more than a decade of professional experience supporting individuals and
+          families through their most significant life chapters. Her background includes years of
+          service in high pressure medical environments. This
+          experience taught her the profound value of being heard and the resilience of the
+          human spirit.
+
+          Anna enjoys working with couples looking to rediscover connection, children navigating
+          big emotions, and individuals processing grief or just feeling stuck. She is also
+          experienced in supporting healthcare providers and hospital administrators navigating
+          professional burnout. As an immigrant, she deeply values the diverse stories each
+          person carries.
+
+          When she is not in the office, she is usually outdoors or creating something with her
+          hands. She loves skiing and biking with her husband and their three children, and she
+          finds a lot of peace in photography, crafting, and traveling to new places, especially if
+          there is a beach involved. She believes that a life well lived includes both deep work
+          and plenty of room for joy, and she looks forward to helping you move toward a more
+          vibrant, whole version of yourself.
+        social:
+          - url: https://www.psychologytoday.com/us/therapists/anna-vyhmeister-cleveland-tn/1692050
+            icon: fas fa-user-circle
+            alt: Anna's Psychology Today Profile
 
   contact:
     title: "Contact Us"
