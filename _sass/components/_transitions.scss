@@ -1,0 +1,77 @@
+// Page Transitions
+#content-container {
+  opacity: 0;
+}
+
+body.page-loaded #content-container {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body.page-fade-out #content-container {
+  opacity: 0 !important;
+  transition: opacity 0.4s ease-in-out !important;
+}
+
+// ---------------------------------------------------------------------------
+// Navbar State Control (Flicker Prevention)
+// ---------------------------------------------------------------------------
+
+// 1. Instant State: Snap to shrunk ONLY if .nav-should-shrink is on html
+// This is handled by a blocking script in the <head>
+html.nav-should-shrink {
+  #mainNav {
+    background-color: $menu-gray !important;
+    transition: none !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+
+    .navbar-brand {
+      font-size: 1.25em !important;
+      padding: 12px 0 !important;
+      transition: none !important;
+    }
+    .nav-link {
+      transition: none !important;
+    }
+  }
+}
+
+// 2. Global navbar transitions: 
+// We enable them by default now, EXCEPT when in a forced shrink state
+#mainNav:not(.navbar-force-shrink) {
+  transition: background-color .30s ease-in-out, padding-top 0.3s, padding-bottom 0.3s !important;
+  .navbar-brand {
+    transition: font-size 0.3s, padding 0.3s !important;
+  }
+  .nav-link {
+    transition: color 0.3s !important;
+  }
+}
+
+// 3. Force the shrunk state for pages like blogs (Sub-pages)
+#mainNav.navbar-force-shrink {
+  background-color: $menu-gray !important;
+  transition: none !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  .navbar-brand {
+    font-size: 1.25em !important;
+    padding: 12px 0 !important;
+    transition: none !important;
+  }
+  .nav-link {
+    transition: none !important;
+  }
+}
+
+// 4. Standard shrink style (state managed by theme JS)
+#mainNav.navbar-shrink:not(.navbar-force-shrink) {
+  background-color: $menu-gray;
+}
+
+// Force active state for blogs when on a blogging page
+.nav-link.active-section {
+  color: $primary !important;
+}
