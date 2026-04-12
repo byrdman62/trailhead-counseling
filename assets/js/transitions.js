@@ -1,5 +1,3 @@
----
----
 document.addEventListener("DOMContentLoaded", function() {
   var body = document.body;
   var nav = document.getElementById("mainNav");
