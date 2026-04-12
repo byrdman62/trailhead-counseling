@@ -51,7 +51,6 @@ en: &DEFAULT_EN
   team:
     title: "Meet the Therapists"
     text: "We have a passion for meeting client's where they are and walking with them as they face life's obstacles. With empathy and compassion, we will support you or your child as you navigate the stressors of&nbsp;life."
-    subtext: 
     section: team
     people:
       - name: "Kristi Byrd"
