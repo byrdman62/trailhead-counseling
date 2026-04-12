@@ -22,8 +22,8 @@ title      : Trailhead Counseling
 email      : info@trailheadcounseling.com #this is also the email contact forms will go to
 description: "Trailhead Counseling"
 author     : David Byrd
-logo       :     #optional, defaults to site title
-   path: assets\img\webp\logo\trailhead_logo.webp
+logo:     #optional, defaults to site title
+   path: assets/img/webp/logo/trailhead_logo.webp
    height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
