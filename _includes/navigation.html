@@ -1,14 +1,14 @@
 <!-- Navigation -->
 <nav
-  class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink navbar-force-shrink"
+  class="navbar navbar-expand-lg navbar-dark fixed-top {% if page.layout != 'home' %}navbar-shrink navbar-force-shrink{% endif %}"
   id="mainNav"
 >
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#"  aria-label="Go to the top of the page">
+    <a class="navbar-brand js-scroll-trigger" href="{{ site.baseurl }}/#page-top"  aria-label="Go to the top of the page">
       {%- if site.logo -%}
       <img
         height="{{ site.logo.height | default: 52 }}"
-        src="{{ site.logo.path | relative_url }}"
+        src="{{ site.logo.path | replace: '\', '/' | relative_url }}"
         alt="{{ site.title }} Logo"
       />
       {%- else -%} {{ site.title }} {%- endif -%}
@@ -67,4 +67,3 @@
     </div>
   </div>
 </nav>
-<!-- End Navigation -->

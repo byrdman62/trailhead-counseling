@@ -1,0 +1,59 @@
+  <!-- Header -->
+  {% if site.locale and site.locale != "" and site.locale != nil %}
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+	  {%- if site.data.sitetext[site.locale].header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext[site.locale].header.text | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext[site.locale].header.button -%}
+        <a class="btn btn-primary btn-xl btn-grow text-uppercase js-scroll-trigger btn-outline" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+	  {%- endif -%}
+    {%- if site.data.sitetext[site.locale].header.spbutton -%}
+        <!-- Start SimplePractice Appointment-Request Widget Embed Code -->
+        <div class="spwidget-button-wrapper">
+          <a href="https://trailheadcounseling.clientsecure.me" class="spwidget-button btn btn-primary btn-xl btn-grow btn-outline"
+            data-spwidget-scope-id="b50d0078-3537-4f01-8a16-df1e2d05dce0" data-spwidget-scope-uri="trailheadcounseling"
+            data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
+            data-spwidget-scope-global data-spwidget-autobind>{{ site.data.sitetext[site.locale].header.spbutton }}
+          </a>
+        </div>
+        <script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
+        <!-- End SimplePractice Appointment-Request Widget Embed Code -->
+    {%- endif -%}
+      </div>
+    </div>
+  </header>
+  {% else %}
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+	  {%- if site.data.sitetext.header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext.header.title | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext.header.text | markdownify }}</div>
+	  {%- endif -%}
+	  {%- if site.data.sitetext.header.button -%}
+        <a class="btn btn-primary btn-xl btn-grow text-uppercase js-scroll-trigger btn-outline" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.header.button }}</a>
+	  {%- endif -%}
+    {%- if site.data.sitetext[site.locale].header.spbutton -%}
+        <!-- Start SimplePractice Appointment-Request Widget Embed Code -->
+        <div class="spwidget-button-wrapper">
+          <a href="https://trailheadcounseling.clientsecure.me" class="spwidget-button btn btn-primary btn-xl btn-grow btn-outline"
+            data-spwidget-scope-id="b50d0078-3537-4f01-8a16-df1e2d05dce0" data-spwidget-scope-uri="trailheadcounseling"
+            data-spwidget-application-id="7c72cb9f9a9b913654bb89d6c7b4e71a77911b30192051da35384b4d0c6d505b"
+            data-spwidget-scope-global data-spwidget-autobind>{{ site.data.sitetext[site.locale].header.spbutton }}
+          </a>
+        </div>
+        <script src="https://widget-cdn.simplepractice.com/assets/integration-1.0.js"></script>
+        <!-- End SimplePractice Appointment-Request Widget Embed Code -->
+    {%- endif -%}
+      </div>
+    </div>
+  </header>
+  {% endif %}
+  <!-- End Header -->

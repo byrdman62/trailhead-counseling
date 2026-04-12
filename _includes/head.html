@@ -21,21 +21,20 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png">
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" />
 
   <!-- Custom fonts for this template -->
-  <link href="assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}/assets/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
   <!-- Custom styles for this theme -->
-  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
-  <link href="assets/css/agency.css" rel="stylesheet" />
+  <link href="{{ site.baseurl }}/assets/css/agency.css" rel="stylesheet" />
 
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
@@ -50,4 +49,22 @@
     }
   </style>
   {% endif %}
+
+  <script>
+    // Blocking script to detect state before first paint
+    (function() {
+      var path = window.location.pathname;
+      var base = "{{ site.baseurl }}/";
+      // Normalize paths
+      var normPath = path.endsWith('/') ? path : path + '/';
+      var normBase = base.endsWith('/') ? base : base + '/';
+      var isHome = normPath === normBase || path === base + "index.html" || path === "/";
+
+      // On sub-pages, always shrink instantly
+      // On home, only shrink instantly if landing on a specific hash/anchor
+      if (!isHome || (window.location.hash && window.location.hash !== "#page-top")) {
+        document.documentElement.classList.add('nav-should-shrink');
+      }
+    })();
+  </script>
 </head>
