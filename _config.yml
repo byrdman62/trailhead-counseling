@@ -15,8 +15,8 @@
 # This needs to be uncommented to deploy to GitHub Pages
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/trailhead-counseling" # the subpath of your site, e.g. /blog
+url    : "https://trailheadcounseling.com/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Trailhead Counseling
 email      : info@trailheadcounseling.com #this is also the email contact forms will go to
