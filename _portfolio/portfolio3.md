@@ -22,12 +22,10 @@ caption:
 <h5>AAMFT Approved Supervision for MFTs:</h5>
 <h6>$100 for each 1 hour session</h6>
 <br>
-<br>
   
 <h5>Looking for a lower-cost counseling option?</h5>
 <h6>Our graduate interns offer services at a significantly reduced rate while receiving close supervision from our licensed clinical team. Contact us to learn more about current graduate intern pricing.</h6>
 
-<br>
 <br>
 
 **\*\*We currently do not accept insurance\*\***<br>
