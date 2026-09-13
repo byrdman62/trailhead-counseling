@@ -109,6 +109,26 @@ en: &DEFAULT_EN
           - url: https://www.psychologytoday.com/us/therapists/anna-vyhmeister-cleveland-tn/1692050
             icon: fas fa-user-circle
             alt: Anna's Psychology Today Profile
+      - name: "Lex Sortman"
+        role: "Clinical Mental Health Counseling Graduate Intern<br>(under supervision by Kristi Rice, LMFT)"
+        image: assets/img/webp/team/LexSortman.webp
+        description: >-
+          Lex has over three years of experience working in community and residential mental health 
+          settings with children, adolescents, and adults. She enjoys helping clients build on their 
+          strengths, develop practical skills, and work toward their personal goals. Lex strives to 
+          create a welcoming, open-minded environment where clients feel comfortable being themselves 
+          and exploring new ways of thinking and coping. Her approach is person-centered and 
+          strengths-based, with an interest in CBT-informed strategies. When she's not working, Lex 
+          enjoys being outside hiking, swimming, or reading by the river. She also loves spending time 
+          with her husband and their pets, enjoying music and movies, thrifting, and, ideally, doing 
+          all of the above with a coffee in hand.
+        social:
+          - url: https://www.psychologytoday.com/us/therapists/lex-sortman-cleveland-tn/1829391
+            icon: fas fa-user-circle
+            alt: Lex's Psychology Today Profile
+          - url: https://www.linkedin.com/in/ahs2000?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+            icon: fab fa-linkedin-in
+            alt: Lex's LinkedIn
 
   contact:
     title: "Contact Us"
@@ -121,10 +141,13 @@ en: &DEFAULT_EN
         # icon: fas fa-laptop
       - text: "info@trailheadcounseling.com"
         icon: fas fa-envelope
-      - text: "3505 Adkisson Dr Ste 206<br>Cleveland TN 37312"
+        type: email
+      - text: "3505 Adkisson Dr Ste 210<br>Cleveland TN 37312"
         icon: fas fa-map-marker
+        type: location
       - text: "(423) 740-0742"
         icon: fas fa-phone
+        type: phone
     section: contact
 
   footer:

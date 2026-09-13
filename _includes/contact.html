@@ -19,15 +19,72 @@
         <ul class="list-inline">
           {% for poc in site.data.sitetext[site.locale].contact.point %}
             <li>
-              {% if poc.link and poc.link != "" and poc.link != nil %}
-              <a class="nav-link section-subheading text-primary" href="{{ poc.link }}">
-                <i class="{{ poc.icon }} text-primary"></i>
+              {% assign item_type = poc.type | default: poc.behavior | default: poc.action | downcase | strip %}
+              {% assign href = nil %}
+              {% assign target_blank = false %}
+
+              {% if item_type == "email" or item_type == "mail" %}
+                {% if poc.link and poc.link != "" and poc.link != nil %}
+                  {% if poc.link contains "mailto:" %}
+                    {% assign href = poc.link %}
+                  {% else %}
+                    {% assign href = "mailto:" | append: poc.link %}
+                  {% endif %}
+                {% elsif poc.text and poc.text != "" and poc.text != nil %}
+                  {% assign clean_email = poc.text | strip_html | strip %}
+                  {% if clean_email != "" %}
+                    {% assign href = "mailto:" | append: clean_email %}
+                  {% endif %}
+                {% endif %}
+
+              {% elsif item_type == "phone" or item_type == "tel" or item_type == "telephone" %}
+                {% if poc.link and poc.link != "" and poc.link != nil %}
+                  {% if poc.link contains "tel:" %}
+                    {% assign href = poc.link %}
+                  {% else %}
+                    {% assign href = "tel:" | append: poc.link %}
+                  {% endif %}
+                {% elsif poc.text and poc.text != "" and poc.text != nil %}
+                  {% assign clean_phone = poc.text | strip_html | strip | remove: "(" | remove: ")" | remove: " " | remove: "-" | remove: "." %}
+                  {% if clean_phone != "" %}
+                    {% assign href = "tel:" | append: clean_phone %}
+                  {% endif %}
+                {% endif %}
+
+              {% elsif item_type == "location" or item_type == "address" or item_type == "map" %}
+                {% assign target_blank = true %}
+                {% if poc.link and poc.link != "" and poc.link != nil %}
+                  {% assign href = poc.link %}
+                {% elsif poc.text and poc.text != "" and poc.text != nil %}
+                  {% assign clean_address = poc.text | newline_to_br | replace: "<BR>", " " | replace: "<br>", " " | replace: "<br/>", " " | replace: "<br />", " " | strip_html | strip | url_encode %}
+                  {% if clean_address != "" %}
+                    {% assign href = "https://maps.google.com/?q=" | append: clean_address %}
+                  {% endif %}
+                {% endif %}
+
+              {% else %}
+                {% if poc.link and poc.link != "" and poc.link != nil %}
+                  {% assign href = poc.link %}
+                {% endif %}
+              {% endif %}
+
+              {% if poc.target and poc.target != "" and poc.target != nil %}
+                {% assign target_attr = poc.target %}
+              {% elsif target_blank %}
+                {% assign target_attr = "_blank" %}
+              {% else %}
+                {% assign target_attr = nil %}
+              {% endif %}
+
+              {% if href and href != "" and href != nil %}
+              <a class="nav-link section-subheading" href="{{ href }}"{% if target_attr %} target="{{ target_attr }}"{% if target_attr == "_blank" %} rel="noopener noreferrer"{% endif %}{% endif %}>
+                <i class="{{ poc.icon }}" aria-hidden="true"></i>
                 <br class="d-sm-none">
-                &nbsp;&nbsp;{{ poc.text | default: poc.link }}
+                &nbsp;&nbsp;{{ poc.text | default: poc.link | default: href }}
               </a>
               {% else %}
               <h2 class="nav-link section-subheading text-primary">
-                <i class="{{ poc.icon }} text-primary"></i>
+                <i class="{{ poc.icon }} text-primary" aria-hidden="true"></i>
                 <br class="d-sm-none">
                 &nbsp;&nbsp;{{ poc.text | default: "" }}
               </h2>
