@@ -142,7 +142,7 @@ en: &DEFAULT_EN
       - text: "info@trailheadcounseling.com"
         icon: fas fa-envelope
         type: email
-      - text: "3505 Adkisson Dr Ste 210<br>Cleveland TN 37312"
+      - text: "3505 Adkisson Dr Ste 110<br>Cleveland TN 37312"
         icon: fas fa-map-marker
         type: location
       - text: "(423) 740-0742"
