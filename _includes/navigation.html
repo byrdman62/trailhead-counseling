@@ -28,6 +28,7 @@
       <ul class="navbar-nav text-uppercase ml-auto">
       {% if site.locale and site.locale != "" and site.locale != nil %}
         {%- for link in site.data.navigation[site.locale].nav -%}
+        {%- unless link.section == "blogs" and site.show_blogs == false -%}
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
@@ -43,9 +44,11 @@
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
         </li>
+        {%- endunless -%}
         {%- endfor -%}
       {% else %}
         {%- for link in site.data.navigation.nav -%}
+        {%- unless link.section == "blogs" and site.show_blogs == false -%}
         <li class="nav-item">
           {%- if link.url -%}
           <a class="nav-link js-scroll-trigger" href="{{ link.url }}"
@@ -61,6 +64,7 @@
           <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
           {%- endif -%}
         </li>
+        {%- endunless -%}
         {%- endfor -%}
       {% endif %}
       </ul>

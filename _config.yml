@@ -28,6 +28,8 @@ logo:     #optional, defaults to site title
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
+# show_blogs: false # Uncomment this to hide the Blogs nav link and section
+
 analytics:
   google: G-DJSJBTB6QC
 

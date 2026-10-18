@@ -1,4 +1,5 @@
 <!-- Blogs -->
+{% unless site.show_blogs == false %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].blogs.section | default: "blogs" }}">
   <div class="container">
     <div class="row">
@@ -8,9 +9,9 @@
       </div>
     </div>
     <div class="row">
-      {% for post in site.posts limit:3 %}
+      {% for post in site.posts limit:4 %}
       {% assign color_num = forloop.index0 | modulo: 2 | plus: 1 %}
-      <div class="col-md-4 col-sm-6 blogs-item">
+      <div class="col-lg-4 col-md-6 blogs-item{% if forloop.index == 4 %} d-none d-md-block d-lg-none{% endif %}">
         <a class="blogs-card card-{{ color_num }}" href="{{ post.url | relative_url }}">
           <div class="blogs-image-container">
             {% if post.image %}
@@ -33,7 +34,7 @@
       </div>
       {% endfor %}
     </div>
-    {% if site.posts.size > 3 %}
+    {% if site.posts.size > 4 %}
     <div class="row">
       <div class="col-lg-12 text-center" style="margin-top: 40px;">
         <a class="btn btn-outline-secondary btn-grow" href="{{ site.baseurl }}/blogs/">View All Blogs</a>
@@ -42,4 +43,5 @@
     {% endif %}
   </div>
 </section>
+{% endunless %}
 <!-- End Blogs -->

@@ -21,14 +21,14 @@
   margin-bottom: 30px;
   
   .blogs-card {
-    padding: 30px;
+    padding: clamp(15px, 6%, 30px);
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.3s ease;
     text-decoration: none;
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 3 / 4;
 
     &:hover {
       transform: translateY(-5px);
@@ -42,7 +42,7 @@
 
   .blogs-image-container {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: clamp(15px, 6%, 30px);
     overflow: hidden;
     
     img {

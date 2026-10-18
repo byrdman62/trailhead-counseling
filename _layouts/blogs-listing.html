@@ -38,7 +38,7 @@ layout: default
       <div class="row">
         {% for post in site.posts %}
         {% assign color_num = forloop.index0 | modulo: 2 | plus: 1 %}
-        <div class="col-md-4 col-sm-6 blogs-item">
+        <div class="col-lg-4 col-md-6 blogs-item">
           <a class="blogs-card card-{{ color_num }}" href="{{ post.url | relative_url }}">
             <div class="blogs-image-container">
               {% if post.image %}
