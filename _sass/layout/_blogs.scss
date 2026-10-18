@@ -36,9 +36,8 @@
     }
 
     // Colors that flow with the brand green (#314940)
-    &.card-1 { background-color: #f2ede4; } // Warm neutral
-    &.card-2 { background-color: #b8c2be; } // Muted green-grey (flows with brand green)
-    &.card-3 { background-color: #edeae2; } // Another warm neutral
+    &.card-1 { background-color: #dcdcd5; } // Warm neutral (odd positions)
+    &.card-2 { background-color: #d5dcd9; } // Muted green-grey (even positions)
   }
 
   .blogs-image-container {
@@ -72,7 +71,7 @@
   .blogs-title {
     @include heading-font;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.1;
     text-transform: uppercase;
     color: $primary; // Use brand green for the title

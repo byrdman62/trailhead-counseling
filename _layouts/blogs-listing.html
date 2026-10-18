@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<script>
+  // Highlight "Blogs" nav link when on the all-blogs listing page
+  document.addEventListener("DOMContentLoaded", function() {
+    var navLinks = document.querySelectorAll(".nav-link");
+    navLinks.forEach(function(link) {
+      if (link.textContent.trim() === "Blogs" || link.getAttribute("href").includes("#blogs")) {
+        link.classList.add("active-section");
+        link.style.color = "{{ site.data.style.highlight | default: '#fed136' }}";
+      }
+    });
+  });
+</script>
+
+<style>
+  /* Push section below the fixed navbar (mirrors page.html / head.html treatment) */
+  #blogs-listing {
+    padding-top: 150px;
+  }
+  @media only screen and (max-width: 991px) {
+    #blogs-listing {
+      padding-top: 100px;
+    }
+  }
+</style>
+
+<div id="content-container">
+  <section class="page-section" id="blogs-listing" style="background-color: #f8f9fa;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.pagetext[site.locale].blogs_listing.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.pagetext[site.locale].blogs_listing.text }}</h3>
+        </div>
+      </div>
+      <div class="row">
+        {% for post in site.posts %}
+        {% assign color_num = forloop.index0 | modulo: 2 | plus: 1 %}
+        <div class="col-md-4 col-sm-6 blogs-item">
+          <a class="blogs-card card-{{ color_num }}" href="{{ post.url | relative_url }}">
+            <div class="blogs-image-container">
+              {% if post.image %}
+              <img class="img-fluid" src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+              {% else %}
+              <!-- Placeholder if no image -->
+              <div style="aspect-ratio: 4/3; background: #ccc;"></div>
+              {% endif %}
+            </div>
+            <div class="blogs-content">
+              <span class="blogs-subtitle">{{ post.subtitle }}</span>
+              <h4 class="blogs-title">
+                {{ post.title }}
+              </h4>
+            </div>
+            <div class="blogs-footer">
+              <div class="blogs-date">{{ post.date | date: "%m/%d/%Y" }}</div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>

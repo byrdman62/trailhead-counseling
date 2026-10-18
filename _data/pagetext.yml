@@ -1,0 +1,24 @@
+#
+# Page-level text content for standalone pages (non-homepage sections).
+#
+# Convention: each top-level key under a locale is a page identifier (snake_case).
+# Usage in templates: {{ site.data.pagetext[site.locale].<page_key>.<field> }}
+#
+# When adding a new standalone page, add its key here under each locale.
+#
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  blogs_listing:
+    title: "All Blogs"
+    text: "Browse all of our articles on mental health, therapy, and well-being."
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN

@@ -35,7 +35,7 @@ document.getElementById("page-top").className="bg-light";
         
         {% if page.categories contains 'blogging' %}
           <div class="mt-5">
-            <a class="btn btn-primary" href="{{ site.baseurl }}/#blogs">Back to Blogs</a>
+            <button class="btn btn-primary" onclick="window.history.back()">Back</button>
           </div>
         {% endif %}
       </div>
