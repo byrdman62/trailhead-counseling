@@ -1,0 +1,7 @@
+# Local development overrides for Jekyll
+# Automatically loaded when serving locally with:
+# bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+theme: jekyll-agency
+remote_theme: null
+plugins: []
